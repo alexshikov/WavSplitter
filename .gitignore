@@ -1,0 +1,55 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+
+#ignore Mac files
+.DS_Store
+
+# ignore FAKE tmp folder
+.fake
+publish-android.sh
+publish-ios.sh
+publish-both.sh
+
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+*.pidb
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.userprefs
+AppPackages/
+*.ncrunchproject
+
+# Ignore Xamarin files
+Components/
+Greenberg.Droid/Resources/Resource.designer.cs
+
+#Ignore NuGet Packages
+packages/
+
+#Ignore custom builds for HockeyApp
+_builds/
+upload-android.sh
+upload-ios.sh
