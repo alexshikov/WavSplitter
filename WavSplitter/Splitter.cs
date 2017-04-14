@@ -43,7 +43,7 @@ namespace WavSplitter
 				var count = await reader.ReadDataChunk (buffer).ConfigureAwait (false);
 				size += count;
 
-				writer.Write (buffer, 0, count);
+				await writer.Write (buffer, 0, count).ConfigureAwait (false);
 
 				bytesToReadFromDataChunk -= count;
 
