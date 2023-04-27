@@ -10,5 +10,6 @@ namespace WavSplitter
 		public const string Wave = "WAVE";
 		public const string Data = "data";
 		public const string Fllr = "FLLR";
+		public const string List = "LIST";
 	}
 }
